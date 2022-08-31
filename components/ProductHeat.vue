@@ -1,6 +1,6 @@
 <script setup>
 defineProps({
-  heatLevel: String,
+  heatLevel: Array,
 });
 const heatMap = {
   Hot: "🔥🔥🔥",
